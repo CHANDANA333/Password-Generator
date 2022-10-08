@@ -8,36 +8,34 @@
     crossorigin="anonymous"
     ></script>
     <title>Password Generator</title>
-    <link rel="stylesheet" href="pg.css">
+   <marquee> <img src="https://i0.wp.com/whatismyip.network/wp-content/uploads/2019/09/Strong-Password-Generator.jpg?fit=1280%2C721&ssl=1" Height=200,width="200%"></marquee>
+    <link rel="styleshee0t" href=pg.css">
 </head>
-<body>
+<body style="background-image:linear-gradient(red,pink)">
     <div class="container">
-        <h2>Password Generator</h2>
+        <h1 align="center">Password Generator</h1>
         <div class="result-container">
-            <span id="result"> </span>
-            <button class="btn" id="clipboard">
-                <i class="far fa-clipboard"></i>
-                </button>
-        </div>
+            
+       </div>
         <div class="settings">
             <div class="setting">
-                <label for="length">Password Length</label>
-                <input type="number" id="length" min="4" max="20" value="20"/>
+                <label for="length" style="font-family:georgia,garamond,serif;font-size:16px;font-style:italic">Password Length</label>
+                <input type="number" id="length" min="8" max="25" value="15"/>
             </div>
             <div class="setting">
-                <label for="uppercase">Include Uppercase Letters</label>
-                <input type="checkbox" id="uppercase" checked>
+                <label for="uppercase" style="font-family:Verdana">Include Uppercase Letters</label>
+                <input type="checkbox" id"uppercase" checked>
             </div>
-            <div class="setting">
-                <label for="lowercase">Include Lower Letters</label>
+            <div class="sett
+                <label for="lowercase" style="font-family:sans serif">Include Lower Letters</label>
                 <input type="checkbox" id="lowercase" checked>
             </div>
             <div class="setting">
-                <label for="numbers">Include  numbers</label>
+                <label for="numbers">Include numbers</label>
                 <input type="checkbox" id="numbers" checked>
             </div>
             <div class="setting">
-                <label for="symbols">Include symbols </label>
+                <label for="symbols" style="font-family:revert-layer">Include symbols </label>
                 <input type="checkbox" id="symbols" checked>
             </div>
         </div>
@@ -47,7 +45,6 @@
     <!--footer-->
     <div class="footer">
         <h2>Copyrights @ <i class="fa fa-copyright" aria-hidden="true"></i></h2>
-
     </div>
 </body>
 </html>
